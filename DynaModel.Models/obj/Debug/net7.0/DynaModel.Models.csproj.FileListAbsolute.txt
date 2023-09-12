@@ -1,0 +1,12 @@
+E:\Dev\DynaModel\DynaModel.Models\bin\Debug\net7.0\DynaModel.Models.deps.json
+E:\Dev\DynaModel\DynaModel.Models\bin\Debug\net7.0\DynaModel.Models.dll
+E:\Dev\DynaModel\DynaModel.Models\bin\Debug\net7.0\DynaModel.Models.pdb
+E:\Dev\DynaModel\DynaModel.Models\obj\Debug\net7.0\DynaModel.Models.csproj.AssemblyReference.cache
+E:\Dev\DynaModel\DynaModel.Models\obj\Debug\net7.0\DynaModel.Models.GeneratedMSBuildEditorConfig.editorconfig
+E:\Dev\DynaModel\DynaModel.Models\obj\Debug\net7.0\DynaModel.Models.AssemblyInfoInputs.cache
+E:\Dev\DynaModel\DynaModel.Models\obj\Debug\net7.0\DynaModel.Models.AssemblyInfo.cs
+E:\Dev\DynaModel\DynaModel.Models\obj\Debug\net7.0\DynaModel.Models.csproj.CoreCompileInputs.cache
+E:\Dev\DynaModel\DynaModel.Models\obj\Debug\net7.0\DynaModel.Models.dll
+E:\Dev\DynaModel\DynaModel.Models\obj\Debug\net7.0\refint\DynaModel.Models.dll
+E:\Dev\DynaModel\DynaModel.Models\obj\Debug\net7.0\DynaModel.Models.pdb
+E:\Dev\DynaModel\DynaModel.Models\obj\Debug\net7.0\ref\DynaModel.Models.dll

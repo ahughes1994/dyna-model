@@ -48,7 +48,7 @@ namespace DynaModel.Api.Migrations
 
                     b.HasIndex("ParentId");
 
-                    b.ToTable("BoolProperty");
+                    b.ToTable("BoolProperty", (string)null);
                 });
 
             modelBuilder.Entity("DynaModel.Models.FloatProperty", b =>
@@ -77,7 +77,7 @@ namespace DynaModel.Api.Migrations
 
                     b.HasIndex("ParentId");
 
-                    b.ToTable("FloatProperty");
+                    b.ToTable("FloatProperty", (string)null);
                 });
 
             modelBuilder.Entity("DynaModel.Models.IntProperty", b =>
@@ -106,7 +106,7 @@ namespace DynaModel.Api.Migrations
 
                     b.HasIndex("ParentId");
 
-                    b.ToTable("IntProperty");
+                    b.ToTable("IntProperty", (string)null);
                 });
 
             modelBuilder.Entity("DynaModel.Models.Parent", b =>
@@ -130,7 +130,7 @@ namespace DynaModel.Api.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Parents");
+                    b.ToTable("Parents", (string)null);
                 });
 
             modelBuilder.Entity("DynaModel.Models.StringProperty", b =>
@@ -160,7 +160,7 @@ namespace DynaModel.Api.Migrations
 
                     b.HasIndex("ParentId");
 
-                    b.ToTable("StringProperty");
+                    b.ToTable("StringProperty", (string)null);
                 });
 
             modelBuilder.Entity("DynaModel.Models.BoolProperty", b =>

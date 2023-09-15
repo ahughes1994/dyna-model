@@ -11,10 +11,11 @@ namespace DynaModel.Api.Data
 			this.context = context;
 		}
 
-		public async Task Add (T entity)
+		public async Task<T?> Add (T entity)
 		{
 			await context.AddAsync(entity);
 			await context.SaveChangesAsync();
+			return entity;
 		}
 
 		public async Task Delete(T entity)
@@ -28,10 +29,12 @@ namespace DynaModel.Api.Data
 			return await context.FindAsync<T>(id);			 
 		}
 
-		public async Task Update (T entity)
+		public async Task<T?> Update (T entity)
 		{
+			entity.Updated = DateTime.UtcNow;
 			context.Update(entity);
 			await context.SaveChangesAsync();
+			return entity;
 		}
 	}
 }

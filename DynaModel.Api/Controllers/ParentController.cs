@@ -16,15 +16,27 @@ namespace DynaModel.Api.Controllers
 		}
 
 		[HttpGet]
-		public async Task<Parent?> Get(string name)
+		public async Task<Parent?> Get(string parentName)
 		{
-			return await parentRepo.FindByName(name);
+			return await parentRepo.FindByName(parentName);
 		}
 
 		[HttpPost]
-		public async Task Post(Parent entity)
+		public async Task<Parent?> Post(Parent entity)
 		{
-			await parentRepo.Add(entity);
+			return await parentRepo.Add(entity);
+		}
+
+		[HttpPatch]
+		public async Task<Parent?> Patch(Parent entity)
+		{
+			return await parentRepo.Update(entity);
+		}
+
+		[HttpDelete]
+		public async Task Delete(Parent entity)
+		{
+			await parentRepo.Delete(entity);
 		}
 	}
 }

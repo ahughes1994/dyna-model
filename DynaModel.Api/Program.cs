@@ -10,6 +10,7 @@ builder.Services.AddDbContext<DataContext>(options =>
 });
 builder.Services.AddTransient(typeof(IRepository<>), typeof(Repository<>));
 builder.Services.AddTransient<IParentRepository, ParentRepository>();
+builder.Services.AddTransient<IPropertyRepository, PropertyRepository>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
